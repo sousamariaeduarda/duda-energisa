@@ -1,28 +1,224 @@
-.titulo{
 
-background-color: aqua;
-text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-background-color: bisque;
-padding: 100px;
- 
-
+.header{
+    font-family: 'Roboto Mono', monospace;
+    background: url('/img/homem_idoso.jpg') center/cover no-repeat;
+    position: relative;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    text-shadow: 10px 10px 15px rgba(0, 0, 10, 5);
 }
 
+#h1_header{
+    font-size: 3em;
+    margin: 0;
+}
 
+#p_header{
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+  
+.btn{
 
+font-family: 'Roboto Mono', monospace;
+font-weight: 300;
+font-size: 14px;
+color: black;
+background-color: #fff;
+padding: 10px 30px;
+border: solid #828282 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-top: 3em;
+}
 
+.btn:hover{
 
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #000000;
+border: solid 2px #b3c8de;
+}
 
+.icone_bloco{
+    width: 3em;
+    height: 3em;
+    margin-right: 15PX;
+    margin-top: 6px;
+}
 
+.section1{
+    background-color: #ffe2b73b;
+}
 
+.icones{
+    display: flex;
+    flex-direction: row;
+}
 
+.bloco{
+    margin: auto;
+    width: 18em;
+    height: 60px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+}
 
+.btn2{
+font-family: 'Roboto Mono', monospace;
+font-weight: 300;
+font-size: 14px;
+color: black;
+background-color: #fff;
+padding: 10px 30px;
+border: solid #828282 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+transition : 1000ms;
+transform: translateY(0);
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+align-items: center !important;
+cursor: pointer;
+margin-top: 3em;
+}
 
+.btn2:hover{
+padding: 10px 50px;
+background-color: #fff;
+color: #000000;
+border: solid 2px #b3c8de;
+}
 
+.button2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 7em;
+}
 
+.texto2{
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+}
 
+#h1_texto2{
+    margin: 3em;
+}
 
+#p_texto2{
+    margin-bottom: 7em;
+    width: 80%;
+}
 
+.icon_livro{
+    margin-top: -3px;
+}
 
+.icon_health{
+    margin-top: -1px;
+}
 
+.section2{
+    display: inline-block;
+    width: 100%;
+}
+
+.section3{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+#img_section2 {
+    float: left;
+    height: 15em;
+    padding: 2em;
+}
+
+#img_section3 {
+    float: right;
+    height: 15em;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+.section_2_3 {
+    background-color: #fff;
+    background-image: url('img/textura_fundo.jpg');
+    background-repeat: repeat;
+    opacity: 10;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+.section3_texto{
+    text-align: right;
+    padding-left: 8em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info, .social-media {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
