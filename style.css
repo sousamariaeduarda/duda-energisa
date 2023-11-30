@@ -1,7 +1,7 @@
 
 .header{
     font-family: 'Roboto Mono', monospace;
-    background: url('/img/homem_idoso.jpg') center/cover no-repeat;
+    background: url('img/240_F_269454895_OJ5vakTDOhS8Rnr13GUFW9CxORyviiWx.png');
     position: relative;
     height: 50vh;
     color: #fff;
@@ -50,7 +50,7 @@ transition : 1000ms;
 padding: 10px 50px;
 transform : translateY(-0px);
 background-color: #fff;
-color: #000000;
+color: #663434;
 border: solid 2px #b3c8de;
 }
 
@@ -144,24 +144,25 @@ border: solid 2px #b3c8de;
 }
 
 .section2{
-    display: inline-block;
+    display:flex;
     width: 100%;
 }
 
 .section3{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     overflow: hidden;
 }
 
 #img_section2 {
-    float: left;
+    
     height: 15em;
     padding: 2em;
 }
 
 #img_section3 {
-    float: right;
+    
     height: 15em;
     padding: 2em;
     margin-bottom: 3em;
@@ -169,7 +170,7 @@ border: solid 2px #b3c8de;
 
 .section_2_3 {
     background-color: #fff;
-    background-image: url('img/textura_fundo.jpg');
+    
     background-repeat: repeat;
     opacity: 10;
     font-family: 'Roboto Mono', monospace;
