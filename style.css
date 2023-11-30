@@ -1,7 +1,7 @@
 
 .header{
     font-family: 'Roboto Mono', monospace;
-    background: url('img/240_F_269454895_OJ5vakTDOhS8Rnr13GUFW9CxORyviiWx.png');
+    background: url('img/background1.jpg');
     position: relative;
     height: 50vh;
     color: #fff;
@@ -62,7 +62,7 @@ border: solid 2px #b3c8de;
 }
 
 .section1{
-    background-color: #ffe2b73b;
+    background-color: rgba(3, 255, 3, 0.267);
 }
 
 .icones{
@@ -75,7 +75,7 @@ border: solid 2px #b3c8de;
     width: 18em;
     height: 60px;
     display: flex;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 20px;
 }
 
@@ -126,8 +126,28 @@ border: solid 2px #b3c8de;
     font-weight: 200;
 }
 
+p{ font-family: 'Roboto Mono', monospace;
+    position: relative;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;}
+
+    h1{ font-family: 'Roboto Mono', monospace;
+    position: relative;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;}
 #h1_texto2{
     margin: 3em;
+    
 }
 
 #p_texto2{
